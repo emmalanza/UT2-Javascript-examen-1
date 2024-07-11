@@ -12,3 +12,16 @@
  */
 
 console.log('ejercicio 1') //no quitar este console.log, empezar debajo el ejercicio
+var sign = window.prompt("Introduzca + - x o /:");
+
+if(sign === "+"){
+    console.log("Sumar");
+}else if(sign === "-"){
+    console.log("Restar")
+}else if(sign === "x") {
+    console.log("Mutiplicar")
+}else if(sign === "/"){
+    console.log("Dividir");
+}else {
+    console.log("No conozco esa operación")
+}
