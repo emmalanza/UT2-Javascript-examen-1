@@ -10,3 +10,22 @@
  */
 
 console.log('ejercicio 3') //no quitar este console.log, empezar debajo el ejercicio
+
+function operacion (num1, num2, operacion = "+") {
+
+    if(operacion === "+"){
+        console.log(`La suma de los números ${num1} + ${num2} es: ${num1 + num2}`);
+    }else if(operacion === "-"){
+        console.log(`La resta de los números ${num1} - ${num2} es: ${num1 - num2}`);
+    }else if(operacion === "*") {
+         console.log(`La multiplicación de los números ${num1} * ${num2} es: ${num1 * num2}`);
+    }else if(operacion === "/"){
+         console.log(`La división de los números ${num1} / ${num2} es: ${num1 / num2}`);
+    }else {
+        console.log("No conozco esa operación")
+    }
+
+}
+
+
+operacion(6,3);
